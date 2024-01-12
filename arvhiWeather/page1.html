@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArchiWeather</title>
+    <link rel="stylesheet" href="page1.css">
+    <script src="js/page1.js" defer></script>
+    <link rel="icon" href="Images/Frame 3.png" type="image/x-icon">
+
+</head>
+
+
+<body> 
+    <img src="Images/cosmos.jpg" alt="">
+    <div class="container">
+        
+        <h1>ArchiWeather</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="Images/temp.png" alt="Temperature" class="images">
+                </td>
+                <td>
+                    <img src="Images/humid.png" alt="Humidity" class="images"></td>
+                </td>
+                <td>
+                    <img src="Images/windspeed.png" alt="WindSpeed" class="images">
+                </td>
+                <td>
+                    <img src="Images/time.png" alt="Time" class="images">
+                </td>
+            </tr>
+        </table>
+        <div class="table1">
+            <table>
+                <tbody id="tableFill">
+                    <tr>
+                        <td ></td>
+                        <td ></td>
+                        <td ></td>
+                        <td ></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+            
+        <div class="inp">
+            <label for="coordinates"></label>
+            <h2>Enter coordinates: </h2>
+            <select id="coordinates" name="coordinates">
+                <option value=""></option>
+            </select>
+        </div>
+            
+
+
+        <input class="submit" type="submit" value="Show info" id="searchBtn"/> 
+        <br>
+
+        <a href="page2.html" class="arrow-link">
+            <img src="Images/arrow.png" alt="arrow">
+        </a>
+    </div>
+</body>
+</html>

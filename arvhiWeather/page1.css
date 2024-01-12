@@ -1,0 +1,206 @@
+html,
+body {
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    min-width: 600px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    opacity: 90%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    font-family: sans-serif;
+    font-weight: 100;
+    /*        background: linear-gradient(45deg, #dd03e4, #5611ec);*/
+    color: aliceblue;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: center;
+    height: 1000px;
+}
+
+.container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Enable vertical scrolling */
+}
+
+.table1 {
+    height: 300px;
+    overflow-y: auto;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#table1::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    
+}
+
+th {
+    text-align: left;
+}
+
+thread,
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+tbody,
+tr {
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+td {
+    position: relative;
+    &:hover {
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -9999px;
+            bottom: -9999px;
+            background-color: rgba(255, 255, 255, 0.1);
+            z-index: -1;
+        }
+    }
+}
+
+.inp {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.suckmy {
+    margin: 20px;
+    height: 27px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+
+.submit {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0px;
+    box-shadow: #ffffff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    width: 150px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+
+.table1::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+}
+
+.table1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.submit:active {
+    margin-bottom: -1px;
+    zoom: 1;
+}
+
+.submit:focus {
+    outline: none;
+}
+
+input:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+input {
+    border: 0;
+    border-radius: 8px;
+    height: 30px;
+}
+
+td {
+    width: 50px;
+}
+
+
+
+.images {
+max-width: 50px;
+max-height: 50px;
+margin: 0 auto;
+}
+
+.arrow-link {
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    top: -100px;
+    left: -450px;
+  }
+  
+  .arrow-link:hover {
+    background-color: #aaa;
+  }
+
+  select{
+    height: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 17px;
+    cursor: pointer;
+    border: 0px;
+    box-shadow: #ffffff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    width: 150px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+
+select:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}

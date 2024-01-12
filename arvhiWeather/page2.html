@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Archiweather</title>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=63fb41e7-0c48-437e-85e0-606a37ed934f&lang=ru_RU"
+        type="text/javascript"></script>
+        <script src="js/map.js"></script>
+        <script src="js/page2.js" defer></script> 
+        <link rel="stylesheet" href="page2.css">
+        <link rel="icon" href="Images/Frame 3.png" type="image/x-icon">
+    </head>
+
+<body>
+<div class="wrapper">
+    
+    <form>
+        <div class="inp">
+            <label for="coordinates">
+                <h2>Enter coordinates</h2>
+            </label>
+            <input class="first" type="text" id="coordinates" disabled/>
+        </div>
+    </form>
+    <input class="submit" type="submit" value="Сохранить координаты" id="addBtn"/>
+    <div id="map" style="height: 400px;">
+    </div>
+    <div class="link">
+        <a href="page1.html">
+            <h5>Просмотр архива погоды</h5>
+        </a>
+    </div>
+</div>
+
+</body>

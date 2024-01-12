@@ -1,0 +1,95 @@
+#map {
+    width: 500px;
+    height: 400px;
+}
+
+.wrapper {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+html,
+body {
+    height: 100%;
+    text-align: center;
+    min-width: 500px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    background: linear-gradient(45deg, #dd03e4, #5611ec);
+    color: aliceblue;
+    background-repeat: no-repeat;
+}
+
+.first {
+    height: 25px;
+    margin-top: 21px;
+    width: 250px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.submit {
+    cursor: pointer;
+    border: 0px;
+    box-shadow: #ffffff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+    margin: 50px auto;
+}
+
+.submit:active {
+    margin-bottom: -1px;
+    zoom: 1;
+}
+
+.submit:focus {
+    outline: none;
+}
+
+input,
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+input {
+    border: 0;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: 0;
+    height: 50px;
+}
+
+h5 {
+    margin: 7px 0;
+    color: aliceblue;
+}
+
+.link {
+    background: rgba(0, 0, 0, 0.3);
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+
